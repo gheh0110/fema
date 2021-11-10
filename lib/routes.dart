@@ -12,6 +12,7 @@ import 'package:fema/screens/profile/profile_screen.dart';
 import 'package:fema/screens/sign_in/sign_in_screen.dart';
 import 'package:fema/screens/splash/splash_screen.dart';
 
+import 'screens/profile_setting.dart/profile_setting.dart';
 import 'screens/sign_up/sign_up_screen.dart';
 
 // We use name route
@@ -28,6 +29,7 @@ final Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => const HomeScreen(),
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
-  ProfileScreen.routeName: (context) =>  ProfileScreen(),
+  ProfileScreen.routeName: (context) =>  const ProfileScreen(),
   CompleteDetailsSuccessScreen.routeName: (context) => const CompleteDetailsSuccessScreen(),
+  ProfileSetting.routeName: (context) => const ProfileSetting(),
 };

@@ -39,7 +39,7 @@ const String kWeightNullError = "Please fill your weight";
 const String kGoalNullError = "Please choose your goal";
 const String kPerWeekWorkoutNullError = "Please choose your workout per week";
 const String kHowManyWeeksNullError = "Please fill how long will you workout";
-const String kMealPlanNullError = "Please fill how long will you workout";
+const String kMealPlanNullError = "Please fill how many times is your meal";
 const String kMealCategoryNullError = "Please choose your category";
 
 final otpInputDecoration = InputDecoration(

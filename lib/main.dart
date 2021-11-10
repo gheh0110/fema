@@ -5,6 +5,7 @@ import 'package:fema/screens/splash/splash_screen.dart';
 import 'package:fema/theme.dart';
 
 import 'screens/about_you/about_you.dart';
+import 'screens/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: theme(),
       // home: SplashScreen(),
       // We use routeName so that we dont need to remember the name
-      initialRoute: ProfileScreen.routeName,
+      initialRoute: HomeScreen.routeName,
       //initialRoute: SplashScreen.routeName,
       routes: routes,
     );
